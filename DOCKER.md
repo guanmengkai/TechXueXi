@@ -317,8 +317,8 @@ docker run \
   -e "Scheme=https://techxuexi.js.org/jump/techxuexi-20211023.html?" \
   -v /volume1/docker/xuexi/user:/xuexi/user:rw \
   -d --name=techxuexi --shm-size="2g" \
-  -p 9980:80
-   techxuexi/techxuexi-amd64:latest
+  -p 9980:80 \
+  techxuexi/techxuexi-amd64:latest
    
 ```
 docker-config.yaml配置
